@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 12pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(to right, #1688e6da, #00ffffda, #00fac4da);
+}
+
+.container {
+    margin: auto;
+}
+
+/* Header */
+
+.header {
+    background-color: rgba(255, 255, 255, 0.911);
+    width:auto;
+    height:70px;
+    margin-top: -1px;
+    text-align: center;
+}
+
+.header p {
+    padding-top: 15px;
+    font: 24pt verdana;
+    font-weight: bold;
+    text-shadow: 1px 6px 5px rgb(85, 85, 85);
+}
+
+/* Page */
+
+.page {
+    background-color: rgba(64, 213, 224, 0.76);
+    color: black;
+    position: fixed;
+    height: 29px;
+    vertical-align: middle;
+    text-align: left;
+    width: 100%;
+    margin-top: auto;
+    box-shadow: 1px 3px 6px 1px rgb(85, 85, 85);
+    padding-left: 20px;
+    z-index: 1;
+    left: 0;
+}
+
+.page p {
+    margin: 5px 0px 5px 5px;
+    font-weight: bold;
+    display: inline-block;   
+}
+
+/* Sidebar */
+
+.sidebar {
+    float: right;
+    height: 100%;
+    width: 170px;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    margin: 0;
+    top: 69px;
+    background-color: rgb(64, 213, 224);
+    overflow-x: hidden;
+    border-style: solid;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    border-right-color: none;
+}
+
+.sidebar a {
+    padding: 15px 10px 15px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    display: block;
+    font-size: 17pt;
+    border-bottom: 1px solid rgb(64, 213, 224);
+    text-align: right;
+    box-shadow: 1px 1px 6px 2px rgb(85, 85, 85);
+}
+
+.sidebar a:hover {
+    color: white;
+    background-color: rgba(224, 64, 64, 0.829);
+}
+
+/* Content */
+
+.content {
+    float: left;
+    z-index: 1;
+    left: 0;
+    width: auto;
+    font-size: 14px;
+}
+
+/* Wrapper */
+
+.wrapper {
+    margin-left: 11px;
+    background-color: rgba(255, 255, 255, 0.911);
+    width: 102%;
+    padding: 7px;
+    padding-top: 15px;
+    margin-top: 60px;
+    border-radius: 0.6em;
+    box-shadow: 1px 1px 7px 6px #0a0a0a9f;
+}
+
+/* Table */
+
+.table1 {
+    margin-top: 15px;
+    font-family: sans-serif;
+    color: rgb(199, 41, 41);
+    border-collapse: collapse;
+    width: 100%;
+    border: 3px solid #ffffff;
+}
+
+.table1 tr th{
+    padding: 20px 48px 20px 48px;
+    background:rgb(64, 213, 224);
+    color: black;
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+.table1, th {
+    padding: 15px 30px 15px 30px;
+    text-align: center;
+}
+
+td {
+    padding: 10px 20px 10px 20px;
+    vertical-align: middle;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.table1 tr:hover {
+    background-color: #b8b8b8;
+}
+
+.table1 tr:nth-child(even) {
+    background-color: #e9e1e1;
+}
+
+/* Bagian Tombol */
+
+#tombol ul li {
+    display: inline-block;
+}
+
+.tombol-cari-cetak button[type=submit] {
+    margin-left: 5px;
+    background-color: #454b4e;
+    padding: 6px;
+    width: 60px;
+    font-weight: bold;
+    border-radius: 0.6em;
+    font-size: 14px;
+    color: white;
+}
+
+#tombol ul li .tmbl_cari button[type=submit]:hover {
+    background-color: rgb(64, 213, 224);
+    font-weight: bold;
+    color: white;
+    border-color:  rgb(64, 213, 224);
+}
+
+#hapus a {
+    text-decoration: none;
+    color: red;
+}
+
+#hapus a:hover {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 10px red;
+}
+
+.table1 a {
+    text-decoration: none;
+    color: rgb(17, 0, 255);
+}
+
+.table1 a:hover {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 10px rgb(17, 0, 255);;
+}
+
+/* Navigasi */
+
+.navigasi {
+    text-align: center;
+    background-color: rgb(64, 213, 224);
+    font-size: 16px;
+    padding: 5px;
+    margin-top: 30px;
+    border-radius: 0.5em;
+}
+
+.navigasi a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* Clear */
+
+.clear {
+    clear: both;
+}
+
+/* Footer */
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    padding: 8px;
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 0.911);
+    color:black;
+    width: 100%;
+    box-shadow: -1px -4px 6px -1px rgb(85, 85, 85);
+}
